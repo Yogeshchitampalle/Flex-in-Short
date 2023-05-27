@@ -1,0 +1,50 @@
+.body {
+    background-color: rgb(188, 9, 248) !important;
+  }
+  
+  .container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    gap: 15px;
+    transition: background-color 0.3s ease-in-out;
+  }
+
+  .block {
+    width: 100px;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 10px;
+    border-radius: 10%;
+    background-color: rgb(110, 231, 240);
+    color: black;
+    padding: 10px;
+    transition: transform 0.3s ease-in-out;
+  }
+
+  .block:hover {
+    transform: scale(1.1);
+  }
+
+  /* Add media query for mobile view */
+  @media (max-width: 768px) {
+    .container {
+      flex-direction: row;
+      flex-wrap: wrap;
+    }
+  
+    .block {
+      margin-bottom: 20px;
+      width: 70px;
+      height: 70px;
+      background-color: rgb(14, 240, 144);
+      color: black;
+      margin-right: 10px;
+      margin-bottom: 10px;
+    }
+  }

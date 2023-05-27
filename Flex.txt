@@ -1,0 +1,121 @@
+
+Flexbox in CSS
+Flexbox is a CSS layout mode that allows We to easily control the layout of flex items within a flex container.
+Flex items can be arranged in a single line, a single column, or even in a grid.
+
+To use flexbox, We first need to set the display property of the flex container to flex.
+We can then use the following properties to control the layout of the flex items:
+
+flex-direction: This property specifies the direction of the flex items. The possible values are row, row-reverse, column, and column-reverse.
+flex-wrap: This property specifies whether the flex items should wrap to the next line when they overflow the container.
+The possible values are nowrap, wrap, and wrap-reverse.
+justify-content: This property specifies how the flex items should be aligned along the main axis.
+The possible values are flex-start, flex-end, center, space-between, and space-around.
+align-items: This property specifies how the flex items should be aligned along the cross axis.
+The possible values are flex-start, flex-end, center, stretch, and baseline.
+
+# For example, the following code would create a flex container with the flex items arranged in a single line:
+
+Code snippet:-
+.flex-container {
+  display: flex;
+}
+
+The following code would create a flex container with the flex items arranged in a single column:
+
+Code snippet:-
+.flex-container {
+  display: flex;
+  flex-direction: column;
+}
+
+The following code would create a flex container with the flex items wrapped to the next line when they overflow the container:
+
+Code snippet:-
+.flex-container {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+The following code would align the flex items to the start of the main axis:
+
+Code snippet:-
+.flex-container {
+  display: flex;
+  justify-content: flex-start;
+}
+
+The following code would align the flex items to the end of the main axis:
+
+Code snippet:-
+.flex-container {
+  display: flex;
+  justify-content: flex-end;
+}
+
+The following code would center the flex items along the main axis:
+
+Code snippet:-
+.flex-container {
+  display: flex;
+  justify-content: center;
+}
+
+The following code would evenly distribute the flex items along the main axis, with equal spacing between them:
+
+Code snippet:-
+.flex-container {
+  display: flex;
+  justify-content: space-between;
+}
+
+The following code would evenly distribute the flex items along the main axis, with equal spacing between them and the edges of the container:
+
+Code snippet:-
+.flex-container {
+  display: flex;
+  justify-content: space-around;
+}
+
+The following code would align the flex items to the start of the cross axis:
+
+Code snippet:-
+.flex-container {
+  display: flex;
+  align-items: flex-start;
+}
+
+The following code would align the flex items to the end of the cross axis:
+
+Code snippet:-
+.flex-container {
+  display: flex;
+  align-items: flex-end;
+}
+
+The following code would center the flex items along the cross axis:
+
+Code snippet:-
+.flex-container {
+  display: flex;
+  align-items: center;
+}
+
+The following code would stretch the flex items to fill the cross axis:
+
+Code snippet:-
+.flex-container {
+  display: flex;
+  align-items: stretch;
+}
+
+The following code would align the flex items to the baseline:
+
+Code snippet:-
+.flex-container {
+  display: flex;
+  align-items: baseline;
+}
+
+Flexbox is a powerful tool that can be used to create a variety of layouts. By understanding the different properties, we can easily create the layout that we need.
+
